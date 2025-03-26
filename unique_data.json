@@ -1,0 +1,212 @@
+[
+    {
+        "firstname": "Natalie",
+        "lastname": "Smith",
+        "email": "camachodaniel@hotmail.com",
+        "department": "Marketing",
+        "salary": 107191.61
+    },
+    {
+        "firstname": "Stephanie",
+        "lastname": "Shepherd",
+        "email": "ijames@yahoo.com",
+        "department": "IT",
+        "salary": 61807.31
+    },
+    {
+        "firstname": "Aaron",
+        "lastname": "Wilkins",
+        "email": "ywoods@johnston-johnson.com",
+        "department": "HR",
+        "salary": 51438.46
+    },
+    {
+        "firstname": "Robert",
+        "lastname": "Ibarra",
+        "email": "klloyd@gmail.com",
+        "department": "IT",
+        "salary": 116468.68
+    },
+    {
+        "firstname": "Walter",
+        "lastname": "Howard",
+        "email": "petersapril@gmail.com",
+        "department": "Marketing",
+        "salary": 87835.03
+    },
+    {
+        "firstname": "Ricky",
+        "lastname": "Sanchez",
+        "email": "ellisjanice@wilson.org",
+        "department": "Operations",
+        "salary": 58636.46
+    },
+    {
+        "firstname": "Karen",
+        "lastname": "Lee",
+        "email": "susan55@hotmail.com",
+        "department": "HR",
+        "salary": 113487.79
+    },
+    {
+        "firstname": "Jennifer",
+        "lastname": "Steele",
+        "email": "wernerashley@jones-massey.com",
+        "department": "Operations",
+        "salary": 44079.66
+    },
+    {
+        "firstname": "Timothy",
+        "lastname": "Torres",
+        "email": "ryankelsey@massey.com",
+        "department": "Operations",
+        "salary": 51442.39
+    },
+    {
+        "firstname": "Theresa",
+        "lastname": "Davis",
+        "email": "marilynjackson@sawyer-davis.com",
+        "department": "Marketing",
+        "salary": 46371.09
+    },
+    {
+        "firstname": "Jason",
+        "lastname": "James",
+        "email": "marcia87@hayden.biz",
+        "department": "Operations",
+        "salary": 105109.63
+    },
+    {
+        "firstname": "Joseph",
+        "lastname": "Smith",
+        "email": "christopherhenderson@hotmail.com",
+        "department": "IT",
+        "salary": 77330.3
+    },
+    {
+        "firstname": "Angela",
+        "lastname": "Steele",
+        "email": "destiny40@rodriguez.com",
+        "department": "Finance",
+        "salary": 59867.95
+    },
+    {
+        "firstname": "Christopher",
+        "lastname": "Aguirre",
+        "email": "stevenyoung@gmail.com",
+        "department": "Operations",
+        "salary": 41543.3
+    },
+    {
+        "firstname": "Roberto",
+        "lastname": "Ruiz",
+        "email": "barryrodriguez@case-erickson.com",
+        "department": "Marketing",
+        "salary": 86290.24
+    },
+    {
+        "firstname": "Rebecca",
+        "lastname": "Nguyen",
+        "email": "doliver@hotmail.com",
+        "department": "Operations",
+        "salary": 104271.36
+    },
+    {
+        "firstname": "Anthony",
+        "lastname": "Stevens",
+        "email": "hhobbs@morgan.com",
+        "department": "IT",
+        "salary": 105720.52
+    },
+    {
+        "firstname": "Lisa",
+        "lastname": "Taylor",
+        "email": "leejackie@richardson-parker.com",
+        "department": "HR",
+        "salary": 96714.67
+    },
+    {
+        "firstname": "Matthew",
+        "lastname": "Murphy",
+        "email": "sheila82@bridges.com",
+        "department": "Finance",
+        "salary": 70984.54
+    },
+    {
+        "firstname": "Ariel",
+        "lastname": "Douglas",
+        "email": "fyoung@hotmail.com",
+        "department": "Finance",
+        "salary": 72172.32
+    },
+    {
+        "firstname": "Richard",
+        "lastname": "Gray",
+        "email": "qkeller@owens-maldonado.com",
+        "department": "IT",
+        "salary": 50228.89
+    },
+    {
+        "firstname": "Christopher",
+        "lastname": "Miller",
+        "email": "ykim@yahoo.com",
+        "department": "Finance",
+        "salary": 82290.86
+    },
+    {
+        "firstname": "Steven",
+        "lastname": "Cohen",
+        "email": "bmelton@cook-luna.com",
+        "department": "IT",
+        "salary": 101450.2
+    },
+    {
+        "firstname": "Peter",
+        "lastname": "Pennington",
+        "email": "timothyreilly@hickman.net",
+        "department": "IT",
+        "salary": 36572.16
+    },
+    {
+        "firstname": "Dean",
+        "lastname": "Sherman",
+        "email": "watkins@yahoo.com",
+        "department": "Marketing",
+        "salary": 119566.8
+    },
+    {
+        "firstname": "Donna",
+        "lastname": "Beard",
+        "email": "mezamichelle@paul-powell.com",
+        "department": "HR",
+        "salary": 106071.89
+    },
+    {
+        "firstname": "Harry",
+        "lastname": "Davis",
+        "email": "daniel38@richards.com",
+        "department": "Marketing",
+        "salary": 115964.7
+    },
+    {
+        "firstname": "Nancy",
+        "lastname": "Daniels",
+        "email": "stacey04@kerr.com",
+        "department": "IT",
+        "salary": 44195.73
+    },
+    {
+        "firstname": "Michael",
+        "lastname": "Castro",
+        "email": "jennifer12@hotmail.com",
+        "department": "Operations",
+        "salary": 38938.35
+    },
+    {
+        "firstname": "Rebekah",
+        "lastname": "Miller",
+        "email": "cody00@george-mosley.com",
+        "department": "IT",
+        "salary": 51719.46
+    }
+]
