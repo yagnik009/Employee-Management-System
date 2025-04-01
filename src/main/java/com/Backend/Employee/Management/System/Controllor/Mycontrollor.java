@@ -3,6 +3,7 @@ package com.Backend.Employee.Management.System.Controllor;
 import com.Backend.Employee.Management.System.Entity.*;
 import com.Backend.Employee.Management.System.Service.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
@@ -21,9 +22,13 @@ public class Mycontrollor {
    }
     @PreAuthorize("hasAnyRole('ADMIN', 'USER')")
     @GetMapping("employess")
-    public PagedataDto employee(@RequestBody Pagedata pagedata){
-       return service.getemployee(pagedata);
-   }
+    public  ResponseEntity<Page<PagedataDto>> employee(
+            @RequestParam int page,
+            @RequestParam int size){
+        Pagedata pagedata=new Pagedata(page,size);
+        Page<PagedataDto>  data=service.getemployees(pagedata);
+        return ResponseEntity.ok(data);
+    }
     @PreAuthorize("hasAnyRole('ADMIN', 'USER')")
     @GetMapping(value = "employee/{id}")
     public Optional <Employee> getbyid(@PathVariable Long id){

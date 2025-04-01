@@ -3,6 +3,9 @@ package com.Backend.Employee.Management.System.Service;
 import com.Backend.Employee.Management.System.Entity.*;
 import com.Backend.Employee.Management.System.Repositry.repositry;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 
 import java.awt.*;
@@ -20,22 +23,25 @@ public class Service {
         return repositry.saveAll(e);
     }
 
-    public PagedataDto getemployee(Pagedata pagedata) {
-        List<Employee> alldata=repositry.findAll();
-        List<Employee> returndata=new ArrayList<>();
-        int start=pagedata.getPage()* pagedata.getPagesize()- pagedata.getPagesize();
-        int end=pagedata.getPage()* pagedata.getPagesize();
-        int totalpage=alldata.size()/pagedata.getPagesize();
-        for (int i=start;i<end && i<alldata.size();i++){
-            returndata.add(alldata.get(i));
-        }
-        PagedataDto page=new PagedataDto();
-        page.setPage(pagedata.getPage());
-        page.setPagesize(pagedata.getPagesize());
-        page.setTotalEmployees(alldata.size());
-        page.setEmployees(returndata);
-        page.setTotalpage(totalpage);
-        return page;
+    public Page getemployees(Pagedata pagedata) {
+        //        List<Employee> alldata=repositry.findAll();
+        //        List<Employee> returndata=new ArrayList<>();
+        //        int start=pagedata.getPage()* pagedata.getPagesize()- pagedata.getPagesize();
+        //        int end=pagedata.getPage()* pagedata.getPagesize();
+        //        int totalpage=alldata.size()/pagedata.getPagesize();
+        //        for (int i=start;i<end && i<alldata.size();i++){
+        //            returndata.add(alldata.get(i));
+        //        }
+        //        PagedataDto page=new PagedataDto();
+        //        page.setPage(pagedata.getPage());
+        //        page.setPagesize(pagedata.getPagesize());
+        //        page.setTotalEmployees(alldata.size());
+        //        page.setEmployees(returndata);
+        //        page.setTotalpage(totalpage);
+        //        return page;
+
+        Pageable pageable = PageRequest.of(pagedata.getPage(), pagedata.getPagesize());
+        return repositry.findAll(pageable);
     }
 
     public Optional<Employee> getByid(Long id) {
